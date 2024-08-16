@@ -13,7 +13,7 @@ namespace MyHSK
 
         public async Task Run()
         {
-            var token = Environment.GetEnvironmentVariable("TOKEN") ?? "YOUR_TOKEN_HERE;
+            var token = Environment.GetEnvironmentVariable("TOKEN") ?? "7373722637:AAHZUAlP0vWaHb86Nfvw4ZpIRFxPc5KWeRM";
             _cts = new CancellationTokenSource();
             _bot = new TelegramBotClient(token, cancellationToken: _cts.Token);
 
@@ -87,6 +87,7 @@ namespace MyHSK
                 case "/cube":
                 case "/merge":
                 case "/train":
+                case "/twerk":
                     await SendGameKeys(command[1..], msg.Chat);
                     break;
             }
@@ -101,6 +102,7 @@ namespace MyHSK
             /cube       - Lấy 4 key của game Cube
             /merge         - Lấy 4 key của game Merge
             /train           - Lấy 4 key của game Train
+            /twerk           - Lấy 4 key của game Twerk
             """, parseMode: ParseMode.Html, linkPreviewOptions: true,
                 replyMarkup: new ReplyKeyboardRemove());
         }

@@ -27,6 +27,7 @@ This Telegram bot helps you get game keys for Hamster Kombat games. You can requ
         * `/cube` - Get 4 keys for Cube
         * `/merge` - Get 4 keys for Merge
         * `/train` - Get 4 keys for Train
+        * `/twerk` - Get 4 keys for TwerkRace
 
 **Key Sources:**
 
@@ -35,6 +36,7 @@ This Telegram bot helps you get game keys for Hamster Kombat games. You can requ
 * **Cube:** https://hamsterkey-cube.netlify.app/
 * **Merge:** https://hamsterkey-merge.netlify.app/
 * **Train:** https://hamsterkey-train.netlify.app/
+* **Twerk:** https://hamsterkey-twerk.netlify.app/
 
 **Dependencies:**
 

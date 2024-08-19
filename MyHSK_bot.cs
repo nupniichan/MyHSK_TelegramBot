@@ -13,7 +13,7 @@ namespace MyHSK
 
         public async Task Run()
         {
-            var token = Environment.GetEnvironmentVariable("TOKEN") ?? "7373722637:AAHZUAlP0vWaHb86Nfvw4ZpIRFxPc5KWeRM";
+            var token = Environment.GetEnvironmentVariable("TOKEN") ?? "Your_Bot_Token";
             _cts = new CancellationTokenSource();
             _bot = new TelegramBotClient(token, cancellationToken: _cts.Token);
 
